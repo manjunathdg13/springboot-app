@@ -34,8 +34,8 @@ public class UserController {
 //
     @Autowired
     UserService service;
-    @GetMapping("/{id}")
-    public String getName(@PathVariable int id){
+    @GetMapping("todos")
+    public List<Todo> getName(){
        return  todos;
 
     }
