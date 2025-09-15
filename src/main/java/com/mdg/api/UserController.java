@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://react-deploy-kor7.vercel.app")
+// @CrossOrigin(origins = "https://react-deploy-kor7.vercel.app")
+    @CrossOrigin(origins = "http://localhost:5174")
+
 public class UserController {
     @Autowired
     UserService service;
