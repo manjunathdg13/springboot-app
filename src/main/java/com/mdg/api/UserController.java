@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-// @CrossOrigin(origins = "https://react-deploy-kor7.vercel.app")
-    @CrossOrigin(origins = "http://localhost:5174")
+ @CrossOrigin(origins = "https://react-deploy-kor7.vercel.app")
+//    @CrossOrigin(origins = "http://localhost:5174")
 
 public class UserController {
     private final List<Todo> todos = new ArrayList<>();
