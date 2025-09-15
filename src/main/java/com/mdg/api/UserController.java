@@ -25,7 +25,7 @@ public class UserController {
     }
 
     // GET all todos
-    @GetMapping("/todos")
+    @GetMapping("todos")
     public List<Todo> getTodos() {
         return todos;
     }
