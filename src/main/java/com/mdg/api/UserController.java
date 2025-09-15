@@ -25,10 +25,10 @@ public class UserController {
     }
 
     // GET all todos
-    @GetMapping("todos")
-    public List<Todo> getTodos() {
-        return todos;
-    }
+    // @GetMapping("todos")
+    // public List<Todo> getTodos() {
+    //     return todos;
+    // }
 
     // GET single todo by id
 //
@@ -36,7 +36,7 @@ public class UserController {
     UserService service;
     @GetMapping("/{id}")
     public String getName(@PathVariable int id){
-       return service.getUsername(id);
+       return  todos;
 
     }
 }
