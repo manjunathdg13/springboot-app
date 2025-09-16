@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController 
  // @CrossOrigin(origins = "https://react-deploy-kor7.vercel.app")
- @CrossOrigin(origins = "*")
+ @CrossOrigin(origins ="*")
 
  // @CrossOrigin(origins = "http://localhost:5174")
 
