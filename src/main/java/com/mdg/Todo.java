@@ -1,4 +1,4 @@
-package com.mdg.dto;
+package com.mdg;
 public class Todo {
     private int id;
     private String title;
